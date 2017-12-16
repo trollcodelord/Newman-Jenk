@@ -1,0 +1,17 @@
+{
+  "name": "yahooapi",
+  "version": "1.0.0",
+  "description": "Integrating Jenkins and Newman beta version",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "newman run tests/Yahoo.postman_collection.json"
+  },
+  "author": "Bhupender kumar",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^3.9.1"
+  }
+}
